@@ -1,0 +1,31 @@
+{
+  "name": "mira_account",
+  "version": "0.1.0",
+  "description": "DSH 账号管理框架：账号池 + 会话绑定（taker/observer）+ 入站路由 + message_id 去重 + 令牌桶限流；qq/微信/B站 bot 插件只做协议层适配器。提供 miraAccount 服务与 8 个管理工具",
+  "type": "module",
+  "main": "lib/index.js",
+  "files": [
+    "lib",
+    "cordis.patch.yml"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "cordis",
+    "plugin",
+    "account",
+    "router",
+    "binding"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stella-Mira/mira_account.git"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

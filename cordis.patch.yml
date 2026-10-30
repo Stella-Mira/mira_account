@@ -1,0 +1,7 @@
+# mira_account — bundle patch（装上即用）
+#
+# 条目 id/name 必须与包名一致；配置与状态写 $DSH_HOME/mira_config/mira_account/，
+# 凭据永不写在这里。
+- insert:
+    - id: mira_account
+      name: mira_account
